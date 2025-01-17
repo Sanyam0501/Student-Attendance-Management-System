@@ -1,0 +1,131 @@
+.logo-image {
+  padding: 0px 0px 0px 30px;
+  width: 180px;
+}
+
+.logo-image:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  background-image: url(../images/attendance.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+}
+
+.nav-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: BarlowMedium;
+  font-size: 20px;
+  background-color: black;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: black;
+  transition: 1s ease;
+}
+
+.logout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: BarlowMedium;
+  font-size: 20px;
+  background-color: black;
+}
+
+.logout-btn:hover {
+  background-color: white;
+  color: black;
+  transition: 1s ease;
+}
+
+.attendance-table {
+  margin-top: 20px;
+}
+
+.footer-head-link {
+  font-family: BarlowMedium;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.active-link {
+  text-decoration: underline;
+  text-underline-offset: 39px;
+  font-weight: bold;
+}
+
+.inactive-link:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 39px;
+}
+
+hr {
+  border-width: 1px;
+}
+
+.divider {
+  opacity: 40%;
+  font-weight: lighter;
+}
+
+.contact-us {
+  font-family: Sansation;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-us:hover {
+  text-decoration: underline;
+}
+
+.footer-link h5 {
+  font-family: Sansation;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer-link a {
+  font-family: Sansation;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  opacity: 50%;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+  font-weight: normal;
+  opacity: 80%;
+}
+
+.rights-text-footer {
+  font-family: Sansation;
+}
+
+.footer-logo {
+  transition: transform 0.6s ease;
+}
+
+.footer-logo:hover {
+  transform: scale(1.4);
+}

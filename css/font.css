@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Sansation;
+  src: url(../fonts/sansation/Sansation_Regular.ttf);
+}
+
+@font-face {
+  font-family: TT Wellington, Medium;
+  src: url(../fonts/tt_wellingtons/TT\ Wellingtons\ Trial\ Medium.otf);
+}
+
+@font-face {
+  font-family: TT Wellington, DemiBold;
+  src: url(../fonts/tt_wellingtons/TT\ Wellingtons\ Trial\ DemiBold.otf);
+}
+
+@font-face {
+  font-family: TT Wellington, Regular;
+  src: url(../fonts/tt_wellingtons/TT\ Wellingtons\ Trial\ Regular.otf);
+}
+
+@font-face {
+  font-family: General Sans, Regular;
+  src: url(../fonts/GeneralSans_Complete/Fonts/OTF/GeneralSans-Regular.otf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: SansationBold;
+  src: url(../fonts/sansation/Sansation_Bold.ttf);
+}
+
+@font-face {
+    font-family: BarlowMedium;
+    src: url(../fonts/Barlow/Barlow-Medium.ttf);
+}
+
+@font-face {
+    font-family: BarlowBold;
+    src: url(../fonts/Barlow/Barlow-Bold.ttf);
+}
+
+@font-face {
+    font-family: BarlowRegular;
+    src: url(../fonts/Barlow/Barlow-Regular.ttf);
+}
+
+@font-face {
+    font-family: BarlowThin;
+    src: url(../fonts/Barlow/Barlow-Thin.ttf);
+}
+
+@font-face {
+    font-family: BarlowSemiBold;
+    src: url(../fonts/Barlow/Barlow-SemiBold.ttf);
+}

@@ -1,0 +1,589 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.blur-section{
+  filter: blur(10px);
+}
+
+.section-heading {
+  font-family: BarlowMedium;
+  font-size: 32px;
+  color: white;
+  background-color: black;
+  padding: 20px 0;
+}
+
+.section-text {
+  font-family: BarlowRegular;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-text:hover {
+  text-decoration: underline;
+}
+.section-text:hover .arrow {
+  transform: translateX(5px);
+}
+
+.hero-section {
+  background-image: url(../images/background-image.jpg);
+  min-height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo-image {
+  padding: 0px 0px 0px 30px;
+  width: 180px;
+}
+
+.logo-image:hover {
+  cursor: pointer;
+}
+
+.nav-item {
+  padding: 0px 10px;
+  color: black;
+  text-decoration: none;
+  font-family: BarlowMedium;
+  font-size: 23px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  transition: 1s ease;
+}
+
+.login-btn {
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+    font-family: BarlowMedium;
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-left: auto; 
+    margin-right: 20px !important;
+  }
+  
+  .login-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: 1s ease;
+  }
+
+  .logout-btn {
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+    font-family: BarlowMedium;
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-left: auto; 
+    margin-right: 20px !important;
+  }
+  
+  .logout-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: 1s ease;
+  }
+  
+
+.top-section {
+  padding-left: 40px;
+  padding-top: 520px;
+}
+
+.top-heading {
+  color: white;
+  font-family: BarlowBold;
+  font-size: 45px;
+}
+
+.top-text {
+  color: white;
+  font-family: BarlowRegular;
+  font-size: 19px;
+}
+
+.top-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.course-btn {
+  color: white;
+  background-color: black;
+}
+
+.course-btn:hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.arrow {
+  transition: transform 1s ease;
+}
+
+.top-text:hover .arrow {
+  transform: translateX(5px);
+}
+
+.about-us-text {
+  font-size: 19px;
+  font-family: BarlowRegular;
+}
+
+.email-section {
+  background-image: url(../images/email-photo.jpeg);
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.email-box {
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.2);
+}
+
+.email-heading {
+  font-family: BarlowBold;
+  padding: 20px 100px;
+  font-size: 45px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.email-text {
+  font-family: BarlowRegular;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.email-container {
+  width: auto;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.email-bar {
+  background-color: transparent;
+  width: 350px;
+  font-family: BarlowRegular;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.email-bar:focus {
+  outline: none;
+}
+
+.email-bar::placeholder {
+  font-family: BarlowThin;
+  color: white;
+  opacity: 70%;
+  font-size: 17px;
+}
+
+.mail-arrow {
+  transition: transform 1s ease;
+}
+
+.mail-arrow.move-right {
+  transform: translateX(10px);
+}
+
+.arrow-link {
+  color: white;
+  transition: transform 1s ease;
+}
+
+.arrow-link:hover svg {
+  transform: translateX(10px);
+}
+
+.footer-head-link {
+  font-family: BarlowMedium;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  border-width: 1px;
+}
+
+.footer-link h5 {
+  font-family: Sansation;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer-link a {
+  font-family: Sansation;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  opacity: 50%;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+  font-weight: normal;
+  opacity: 80%;
+}
+
+@media only screen and (max-width: 425px) {
+  .hero-section {
+    min-height: auto;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .navbar-toggler-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .logo-image {
+    padding-left: 0px;
+    width: 80px;
+  }
+
+  .top-heading {
+    margin-right: 250px;
+    font-size: 20px;
+  }
+
+  .top-text {
+    font-size: 10px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .image1-section,
+  .image2-section,
+  .image3-section,
+  .image4-section,
+  .image5-section,
+  .image6-section,
+  .image8-section,
+  .image9-section {
+    background-position: top;
+    min-height: 400px;
+  }
+
+  .arrow {
+    width: 15px;
+  }
+
+  .contrast-section {
+    min-height: 200px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .contrast-heading {
+    font-size: 17px;
+  }
+
+  .contrast-text1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .contrast-text2 {
+    padding-top: 0px !important;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+
+  .contrast-shop-btn {
+    margin-top: 10px !important;
+    font-size: 10px;
+    padding: 0px;
+    width: 100px;
+  }
+
+  .email-section {
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .email-heading {
+    padding: 0 50px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .email-text {
+    font-size: 10px;
+  }
+
+  .email-container {
+    width: auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+  }
+
+  .email-bar {
+    background-color: transparent;
+    width: 150px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 11px;
+    color: white;
+  }
+
+  .email-bar::placeholder {
+    color: white;
+    opacity: 70%;
+    font-size: 10px;
+  }
+
+  .footer-head-link {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-head-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 32.5px;
+  }
+
+  .contact-us {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-link h5 {
+    font-weight: 300;
+  }
+
+  .footer-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    opacity: 50%;
+  }
+
+  .footer-link a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    opacity: 80%;
+  }
+
+  .footer-logo-container {
+    justify-content: start !important;
+  }
+
+  .footer-logo {
+    transition: transform 0.6s ease;
+  }
+
+  .footer-logo:hover {
+    transform: scale(1.4);
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .hero-section {
+    min-height: 400px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .navbar-toggler-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .logo-image {
+    padding-left: 5px;
+    width: 100px;
+  }
+
+  .top-section {
+    padding-top: 250px;
+    padding-left: 20px;
+  }
+
+  .top-heading {
+    margin-right: 250px;
+    font-size: 20px;
+  }
+
+  .top-text {
+    font-size: 10px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .image1-section,
+  .image2-section,
+  .image3-section,
+  .image4-section,
+  .image5-section,
+  .image6-section,
+  .image8-section,
+  .image9-section {
+    background-position: top;
+    min-height: 500px;
+  }
+
+  .arrow {
+    width: 15px;
+  }
+
+  .contrast-section {
+    min-height: 500px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .contrast-heading {
+    font-size: 22px;
+  }
+
+  .contrast-text1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .contrast-text2 {
+    padding-top: 0px !important;
+    letter-spacing: 1px;
+    font-size: 17px;
+  }
+
+  .contrast-shop-btn {
+    margin-top: 15px !important;
+    font-size: 12px;
+    padding: 10px;
+    width: 130px;
+  }
+
+  .email-section {
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .email-heading {
+    padding: 0 100px;
+    font-size: 35px;
+    line-height: 38px;
+    text-transform: uppercase;
+  }
+
+  .email-text {
+    font-size: 18px;
+  }
+
+  .email-container {
+    width: auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+  }
+
+  .email-bar {
+    background-color: transparent;
+    width: 250px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: white;
+  }
+
+  .email-bar::placeholder {
+    color: white;
+    opacity: 70%;
+    font-size: 13px;
+  }
+
+  .footer-head-link {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-head-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 32.5px;
+  }
+
+  .contact-us {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-link h5 {
+    font-weight: 300;
+  }
+
+  .footer-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    opacity: 50%;
+  }
+
+  .footer-link a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    opacity: 80%;
+  }
+
+  .footer-logo-container {
+    justify-content: start !important;
+  }
+
+  .footer-logo {
+    transition: transform 0.6s ease;
+  }
+
+  .footer-logo:hover {
+    transform: scale(1.4);
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .contrast-section {
+    min-height: 600px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
