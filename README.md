@@ -25,27 +25,35 @@ This project is a web-based application designed to manage student attendance ef
 
 ## Folder Structure
 
-├── admin_login.html                # HTML File
-├── attendance.html                 # HTML File
-├── index.html                      # HTML File
-├── main_index.html                 # HTML File
-├── server.js                       # JS File
-├── attendance.db                   # Database File
-├── css                             # CSS Files Folder
-│   ├── admin_login.css             # CSS File
-│   ├── attendance.css              # CSS File
-│   ├── font.css                    # CSS File
-│   ├── index.css                   # CSS File
-│   ├── attendance.css              # CSS File
-├── fonts                           # Font Files Folder
-│   ├── Barlow                      # Font Folder
-├── images                          # Image Files Folder
-│   ├── about-us.jpg                # Image File
-│   ├── attendance.jpg              # Image File
-│   ├── background-image.jpg        # Image File
-│   ├── email-photo.jpeg            # Image File
-│   ├── login.jpg                   # Image File
-│   ├── logo.png                    # Image File
+.
+├── html
+│   ├── admin_login.html       # HTML File
+│   ├── attendance.html        # HTML File
+│   ├── index.html             # HTML File
+│   ├── main_index.html        # HTML File
+│
+├── js
+│   ├── server.js              # JS File
+│
+├── database
+│   ├── attendance.db          # Database File
+│
+├── css
+│   ├── admin_login.css        # CSS File
+│   ├── attendance.css         # CSS File
+│   ├── font.css               # CSS File
+│   ├── index.css              # CSS File
+│
+├── fonts
+│   ├── Barlow                 # Font Folder
+│
+├── images
+│   ├── about-us.jpg           # Image File
+│   ├── attendance.jpg         # Image File
+│   ├── background-image.jpg   # Image File
+│   ├── email-photo.jpeg       # Image File
+│   ├── login.jpg              # Image File
+│   ├── logo.png               # Image File
 
 ## Future Enhancements
 
